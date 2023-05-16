@@ -1,7 +1,7 @@
 package net.asrialthe6th.evangelion;
 
 import com.mojang.logging.LogUtils;
-import net.asrialthe6th.evangelion.item.Moditems;
+import net.asrialthe6th.evangelion.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,7 +25,7 @@ public class Evangelion
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        Moditems.register(modEventBus);
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
