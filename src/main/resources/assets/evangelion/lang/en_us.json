@@ -1,4 +1,6 @@
 {
   "item.evangelion.s2_drive": "S2 Drive",
-  "item.evangelion.awakened_s2_drive": "awakened S2 Drive"
+  "item.evangelion.awakened_s2_drive": "awakened S2 Drive",
+
+  "itemGroup.evangelionmodtab": "Evangelion Tab"
 }
